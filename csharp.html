@@ -1,0 +1,235 @@
+<html>
+<head>
+  <link href="jquery-ui.css" rel="stylesheet">
+	<style type="text/css">
+		body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: radial-gradient(circle, #ffffff, #d2c7e6, #ad8fc8, #9056a4, #76077c);
+  text-align: center;
+}
+.content {
+	margin: 100px;
+  text-align: left;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+
+  background-image: radial-gradient(circle, #ffffff, #d9cdf0, #bd9bdb, #a865bf, #971f9d);
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+		.accordion{
+			text-align: center;
+		}
+		.text{
+			font-size: 20px;
+		}
+    .demoHeaders {
+    margin-top: 2em;
+  }
+    .pic {
+    height: 300px;
+    width: 350px;
+  }
+  
+	</style>
+</head>
+<body>
+		<div class="header">
+  			<a href="index.html" class="logo">Learn Programming</a>
+  			<div class="header-right">
+    			<a href="java.html">Java</a>
+    			<a class="active" href="csharp.html">C#</a>
+    			<a href="python.html">Python</a>
+ 			</div>
+		</div>
+    <br><br><br><br><br><br><br><br>
+    <img src="csharp.png" class="pic">
+	<div class="content">
+	<div id="accordion">
+		<h3>What is C#?</h3>
+		<div class="text">C# is a simple, modern, general-purpose, object-oriented programming language developed by Microsoft within its .NET initiative led by Anders Hejlsberg. This tutorial will teach you basic C# programming and will also take you through various advanced concepts related to C# programming language.<br><br>
+
+C# is a modern, general-purpose, object-oriented programming language developed by Microsoft and approved by European Computer Manufacturers Association (ECMA) and International Standards Organization (ISO).<br><br>
+
+C# was developed by Anders Hejlsberg and his team during the development of .Net Framework.<br><br>
+
+C# is designed for Common Language Infrastructure (CLI), which consists of the executable code and runtime environment that allows use of various high-level languages on different computer platforms and architectures.<br><br>
+
+The following reasons make C# a widely used professional language:<br>
+<ul>
+<li>It is a modern, general-purpose programming language</li>
+<li>It is object oriented.</li>
+<li>It is component oriented.</li>
+<li>It is easy to learn.</li>
+<li>It is a structured language.</li>
+<li>It produces efficient programs.</li>
+<li>It can be compiled on a variety of computer platforms.</li>
+<li>It is a part of .Net Framework.</li>
+</ul>
+		</div>
+    <h3>Strong Programming Features of C#</h3>
+    <div class="text">
+      Although C# constructs closely follow traditional high-level languages, C and C++ and being an object-oriented programming language. It has strong resemblance with Java, it has numerous strong programming features that make it endearing to a number of programmers worldwide.<br><br>
+
+Following is the list of few important features of C# −<br>
+<ul>
+<li>Boolean Conditions</li>
+<li>Automatic Garbage Collection</li>
+<li>Standard Library</li>
+<li>Assembly Versioning</li>
+<li>Properties and Events</li>
+<li>Delegates and Events Management</li>
+<li>Easy-to-use Generics</li>
+<li>Indexers</li>
+<li>Conditional Compilation</li>
+<li>Simple Multithreading</li>
+<li>LINQ and Lambda Expressions</li>
+<li>Integration with Windows</li>
+</ul>
+    </div>
+		
+	<h3>The .Net Framework</h3>
+		<div class="text">The .Net framework is a revolutionary platform that helps you to write the following types of applications:<br>
+<ul>
+<li>Windows applications</li>
+<li>Web applications</li>
+<li>Web services</li>
+</ul>
+The .Net framework applications are multi-platform applications. The framework has been designed in such a way that it can be used from any of the following languages: C#, C++, Visual Basic, Jscript, COBOL, etc. All these languages can access the framework as well as communicate with each other.<br><br>
+
+The .Net framework consists of an enormous library of codes used by the client languages such as C#. Following are some of the components of the .Net framework:<br>
+
+<ul>
+<li>Common Language Runtime (CLR)</li>
+<li>The .Net Framework Class Library</li>
+<li>Common Language Specification</li>
+<li>Common Type System</li>
+<li>Metadata and Assemblies</li>
+<li>Windows Forms</li>
+<li>ASP.Net and ASP.Net AJAX</li>
+<li>ADO.Net</li>
+<li>Windows Workflow Foundation (WF)</li>
+<li>Windows Presentation Foundation</li>
+<li>Windows Communication Foundation (WCF)</li>
+<li>LINQ</li>
+</ul>
+For the jobs each of these components perform, please see ASP.Net - Introduction, and for details of each component, please consult Microsoft's documentation.<br>
+</div>
+		<h3>Sample Code</h3>
+    <div class="text">
+      <h1>Hello World</h1>
+      <img src="hello2.jpg">
+      <p>
+      <button id="dialog-link" class="dialogbutton">
+        Run
+  </button>
+
+</div>
+<h3>Download</h3> 
+  <div class="text">
+    Visual Studio<br>
+Best-in-class tools for any developer
+<center>
+  <input type="button" id="button" value="Download Now!" onclick="window.location.href='https://visualstudio.microsoft.com/'" />
+</center>
+<br><br>
+Visual Studio App Center<br><br>
+Continuous Everything – Build, Test, Deploy, Engage, Repeat<br>
+Build in the cloud<br>
+Test on real devices<br>
+Deploy everywhere with ease<br>
+Analyze and learn faster<br>
+Monitor app health<br>
+Engage users with push notifications
+  </div>
+<!-- ui-dialog -->
+<div id="dialog" title="Sample Code">
+  <p>Hello World</p>
+</div>
+</p>
+    </div>
+		
+</div>
+</div>
+  <script src="jquery.js"></script>  
+  <script src="jquery-ui.js"></script>         
+  <script>
+    $( "#accordion" ).accordion();
+
+    $( "#selectmenu" ).selectmenu();
+
+    $( "#dialog-link" ).button();
+
+    $( "#button" ).button();
+
+    $( "#dialog" ).dialog({
+  autoOpen: false,
+  width: 400,
+  buttons: [
+    {
+      text: "Ok",
+      click: function() {
+        $( this ).dialog( "close" );
+      }
+    }
+  ]
+});
+
+// Link to open the dialog
+$( "#dialog-link" ).click(function( event ) {
+  $( "#dialog" ).dialog( "open" );
+  event.preventDefault();
+});
+
+  </script>
+	</body>
+</html>
